@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My CI/CD App</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to My CI/CD App</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <h2>Continuous Integration & Deployment</h2>
+        <p>
+          This application is automatically tested and deployed using Jenkins
+        </p>
+        <button id="clickMe">Click me!</button>
+        <p id="message"></p>
+      </section>
+
+      <section class="features">
+        <div class="feature">
+          <h3>CI</h3>
+          <p>Automated testing on every commit</p>
+        </div>
+        <div class="feature">
+          <h3>CD</h3>
+          <p>Automatic deployment to production</p>
+        </div>
+        <div class="feature">
+          <h3>Quality</h3>
+          <p>Code quality checks</p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>Version: <span id="version">1.0.0</span></p>
+    </footer>
+    <script src="js/app.js"></script>
+  </body>
+</html>
